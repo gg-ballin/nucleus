@@ -14,6 +14,7 @@ class App extends Component {
   state = { 
     user: {}, 
     searchfield: '', 
+    users: []
   }
 
   async componentDidMount() {
